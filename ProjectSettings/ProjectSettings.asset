@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-  productGUID: 4d0247bdcdfd1554e84adcb67aa18310
+  productGUID: 901f77ca9f61d6f44909bfc4ba1016cc
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: Project2
+  productName: TakeTwo
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -745,14 +745,14 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: Project2
+  metroPackageName: TakeTwo
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: Project2
+  metroApplicationDescription: TakeTwo
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -767,7 +767,6 @@ PlayerSettings:
   metroSplashScreenBackgroundColor: {r: 0.12941177, g: 0.17254902, b: 0.21568628,
     a: 1}
   metroSplashScreenUseBackgroundColor: 0
-  syncCapabilities: 0
   platformCapabilities: {}
   metroTargetDeviceFamilies: {}
   metroFTAName: 
@@ -822,10 +821,10 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 2
   windowsGamepadBackendHint: 0
-  cloudProjectId: f2584946-2608-48db-9869-281a25e8cfdd
+  cloudProjectId: fb6e8297-19c4-4846-b97d-f80b488ac757
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Project2
+  projectName: 
   organizationId: kroniksquid
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 1
