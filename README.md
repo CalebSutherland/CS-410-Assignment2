@@ -1,4 +1,4 @@
-Team Members: Caleb Sutherland, Ezana Esayas
+Team Members: Caleb Sutherland, Ezana Esayas, Kyle Pinkham
 
 
 New Effects Added:
