@@ -13,6 +13,7 @@ public class PlayerMovement : MonoBehaviour
     Rigidbody m_Rigidbody;
     AudioSource m_AudioSource;
     Vector3 m_Movement;
+    ParticleSystem m_ParticleSystem;
     Quaternion m_Rotation = Quaternion.identity;
 
     void Start ()
@@ -20,7 +21,8 @@ public class PlayerMovement : MonoBehaviour
         m_Animator = GetComponent<Animator> ();
         m_Rigidbody = GetComponent<Rigidbody> ();
         m_AudioSource = GetComponent<AudioSource> ();
-        
+        m_ParticleSystem = GetComponent<ParticleSystem>();
+
         MoveAction.Enable();
     }
 
@@ -45,10 +47,16 @@ public class PlayerMovement : MonoBehaviour
             {
                 m_AudioSource.Play();
             }
+
+            if (!m_ParticleSystem.isPlaying)
+            {
+                m_ParticleSystem.Play();
+            }
         }
         else
         {
             m_AudioSource.Stop ();
+            m_ParticleSystem.Stop();
         }
 
         Vector3 desiredForward = Vector3.RotateTowards (transform.forward, m_Movement, turnSpeed * Time.deltaTime, 0f);
