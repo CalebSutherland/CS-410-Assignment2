@@ -10,7 +10,7 @@ public class GargoyleColorChange : MonoBehaviour
     public Transform player;
     
     Color near = Color.red;
-    Color far = Color.white;
+    Color far = Color.green;
     const float MAX_DISTANCE = 40;
 
     void Update()

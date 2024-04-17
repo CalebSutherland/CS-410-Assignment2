@@ -99,8 +99,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6fae053879a149d48d450e487c03f91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 2008973354732098957, guid: e58a8494f35e17f45ba5bbffdfb92517, type: 3}
-  lightCone: {fileID: 2100000, guid: 98a5d7f03b88cef44932b3206c7bd8db, type: 2}
+  player: {fileID: 0}
 --- !u!1 &8038108750564668487
 GameObject:
   m_ObjectHideFlags: 0

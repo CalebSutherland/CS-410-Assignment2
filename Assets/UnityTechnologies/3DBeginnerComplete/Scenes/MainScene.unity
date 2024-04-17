@@ -3212,6 +3212,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3674741053583214003, guid: 549c69af39b84624b8a053537c407def,
         type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674741053583214003, guid: 549c69af39b84624b8a053537c407def,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674741053583214003, guid: 549c69af39b84624b8a053537c407def,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674741053583214003, guid: 549c69af39b84624b8a053537c407def,
+        type: 3}
       propertyPath: m_Shadows.m_Type
       value: 2
       objectReference: {fileID: 0}
