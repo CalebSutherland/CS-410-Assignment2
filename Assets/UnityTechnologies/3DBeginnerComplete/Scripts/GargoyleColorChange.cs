@@ -11,7 +11,7 @@ public class GargoyleColorChange : MonoBehaviour
     
     Color near = Color.red;
     Color far = Color.green;
-    const float MAX_DISTANCE = 40;
+    const float MAX_DISTANCE = 20;
 
     void Update()
     {
