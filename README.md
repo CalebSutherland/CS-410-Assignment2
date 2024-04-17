@@ -9,3 +9,4 @@ Linear Interpolation: Changed the gargoyle's flashlight color depending on how f
 
 Particle Effect: Added a particle system to the John Lemon character that activates while the player is moving
 
+Dot Product: Attempted to have the ghosts rotate to face the player as they move but it seems like the animations are effecting it
